@@ -1,2 +1,4 @@
 stringcalc
 ==========
+
+初めてのPython
