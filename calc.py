@@ -5,7 +5,7 @@ import re
 def calc(str):
   str = str.encode('utf-8')
 
-  if re.match(r'^[0-9()+\-*/]$', str) == None: return False
+#  if re.match(r'^[0-9()+\-*/]$', str) == None: return False
 
   str = re.sub(r'[^0-9()+\-*/]', '', str)
   str = re.sub(r'^[*/]+', '', str)
